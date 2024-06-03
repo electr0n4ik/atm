@@ -3,6 +3,10 @@ import unittest
 from main import ATM
 
 class TestATM(unittest.TestCase):
+    """
+    Запуск из командной строки:
+    python3 -m unittest test_atm.py
+    """
     def setUp(self):
         self.atm = ATM()
 
